@@ -7,8 +7,8 @@ const getDuolingoStreak = async function (username) {
   const data = await res.json()
   	.then(response => {
       const userData = response.users[0]; 
-      console.log(response); 
-      return(response)});
+      console.log(userData.streak); 
+      return(userData.streak)});
 }
 
 
