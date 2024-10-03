@@ -4,7 +4,7 @@ const getDuolingoStreak = async function (username) {
   const res = await fetch(
     `https://www.duolingo.com/2017-06-30/users?username=${username}&fields=streak,streakData%7BcurrentStreak,previousStreak%7D%7D`
   );
-  const data = await res.json();
+  const data = await res.json()
   	.then(response => {
       const userData = response.users[0]; 
       console.log(response); 
