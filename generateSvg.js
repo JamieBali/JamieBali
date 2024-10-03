@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-function getDuolingoStreak(username) {
+const getDuolingoStreak = async function (username) {
   const res = fetch(
     `https://www.duolingo.com/2017-06-30/users?username=${username}&fields=streak,streakData%7BcurrentStreak,previousStreak%7D%7D`
   );
