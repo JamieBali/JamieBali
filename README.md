@@ -14,10 +14,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/JamieBali">
+    
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=JamieBali&theme=dark&hide_border=true"/>
+  </a>
+  <a href="https://github.com/JamieBali">
+    <img height="180em" src="generated.svg"/>
+  </a>
+  
 </p>
 
-<img height="180em" src="generated.svg"/>
 
 <!--
 Here are some ideas to get you started:
