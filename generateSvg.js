@@ -5,8 +5,10 @@ const getDuolingoStreak = async function (username) {
     `https://www.duolingo.com/2017-06-30/users?username=${username}&fields=streak,streakData%7BcurrentStreak,previousStreak%7D%7D`
   );
   const data = await res.json();
-  const userData = await data.users[0] 
-  	.then(response => {console.log(response); return(response)});
+  	.then(response => {
+      const userData = response.users[0]; 
+      console.log(response); 
+      return(response)});
 }
 
 
