@@ -14,14 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3  # Checks out the repository
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'  # You can adjust the Node.js version
-
-      - name: Install dependencies
-        run: npm install  # Assuming you have a `package.json` file
-
       - name: Run SVG generation script
         run: node generateSvg.js  # This should be the script that generates your SVG
 
