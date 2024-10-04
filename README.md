@@ -11,7 +11,7 @@
 
 <p align="center">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=JamieBali&theme=dark&hide_border=true"/>
-  <img height="180em" src="generated.svg"/>
+  <img height="90em" src="generated.svg"/>
 </p>
 
 
