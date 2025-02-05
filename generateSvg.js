@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const getDuolingoStreak = async function (username) {
   const res = await fetch(
-    `https://www.duolingo.com/2017-06-30/users?username=${username}&fields=streak,streakData%7BcurrentStreak,previousStreak%7D%7D`
+    `https://www.duolingo.com/2017-06-30/users?username=${username}&fields=streak,streakData%7BcurrentStreak`
   );
   const data = await res.json()
   	.then(response => {
